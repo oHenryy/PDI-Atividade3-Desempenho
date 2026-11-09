@@ -1,0 +1,2 @@
+rotulo,modo,config,iluminacao,textura,situacao,tri_ultimo_acima,valor_ultimo_acima,fps_ultimo_acima,tri_primeiro_abaixo,valor_primeiro_abaixo,fps_primeiro_abaixo,fps_dp_primeiro_abaixo,quadro_ms,gpu_ms,submissao_ms,swap_ms,cpu_proc,cpu_thread,cpu_thread_max,cpu_nucleo_max,gpu_nv_proc,gpu_intel_proc,nv_util,nv_pot_w,nv_clk_sm,motivos_reducao,tri_maior_testado,fps_maior_testado,pontos_medidos
+cal2_vbo,VBO,A,sem iluminacao,0,limite nao alcancado,66995216,512,81.930,0,0,0.000,0.000,0.0000,-1.0000,0.0000,0.0000,0.00,0.00,0.00,0.00,0.00,0.00,0.0,0.00,0,nenhum,66995216,81.930,2

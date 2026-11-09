@@ -1,0 +1,16 @@
+\begin{table}[H]
+\centering
+\caption{Tabela-síntese do experimento E3 (aumento do número de orbes, T = 8).}
+\label{tab:sintese_e3}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\textwidth}{c r r r c c L P{1.6cm}}
+\toprule
+Cfg. & Último $\geq$ 60 & \textbf{Menor testado} & FPS médio & CPU proc. / & GPU 3D & Gargalo & Situação \\
+ & (FPS) & \textbf{$<$ 60} & $\pm$ dp & thread máx. (\%) & (\%) & (indício mais forte) & \\
+\midrule
+A & 5.751.824 (61,9) & \textbf{5.981.200} & \textbf{59,4} $\pm$ 0,33 & 4,9 / 97 & 18 & CPU: 1 thread saturada (envio de comandos) & limite encontrado \\
+F & 5.522.448 (62,1) & \textbf{5.751.824} & \textbf{59,8} $\pm$ 0,06 & 4,9 / 99 & 19 & CPU: 1 thread saturada (envio de comandos) & limite encontrado \\
+\bottomrule
+\end{tabularx}
+\end{table}

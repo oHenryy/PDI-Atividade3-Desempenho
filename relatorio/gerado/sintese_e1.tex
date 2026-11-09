@@ -1,0 +1,20 @@
+\begin{table}[H]
+\centering
+\caption{Tabela-síntese do experimento principal E1 (GPU dedicada, VBO, aumento de T): menor quantidade testada de triângulos com FPS médio abaixo de 60 em cada configuração.}
+\label{tab:sintese_e1}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\textwidth}{c r r r c c L P{1.6cm}}
+\toprule
+Cfg. & Último $\geq$ 60 & \textbf{Menor testado} & FPS médio & CPU proc. / & GPU 3D & Gargalo & Situação \\
+ & (FPS) & \textbf{$<$ 60} & $\pm$ dp & thread máx. (\%) & (\%) & (indício mais forte) & \\
+\midrule
+A & 80.155.664 (63,2) & \textbf{82.463.760} & \textbf{59,8} $\pm$ 0,02 & 0,7 / 8 & 95 & GPU (processamento de vértices); no limite de potência & limite encontrado \\
+B & 80.155.664 (62,8) & \textbf{82.463.760} & \textbf{58,5} $\pm$ 0,04 & 0,7 / 9 & 95 & GPU (processamento de vértices); no limite de potência & limite encontrado \\
+C & 80.155.664 (62,9) & \textbf{82.463.760} & \textbf{58,4} $\pm$ 0,02 & 0,7 / 10 & 97 & GPU (processamento de vértices); no limite de potência & limite encontrado \\
+D & 80.155.664 (63,8) & \textbf{82.463.760} & \textbf{59,3} $\pm$ 0,02 & 0,7 / 10 & 97 & GPU (processamento de vértices); no limite de potência & limite encontrado \\
+E & 80.155.664 (62,0) & \textbf{82.463.760} & \textbf{57,9} $\pm$ 0,05 & 0,7 / 9 & 97 & GPU (processamento de vértices); no limite de potência & limite encontrado \\
+F & 80.155.664 (62,5) & \textbf{82.463.760} & \textbf{58,8} $\pm$ 0,04 & 0,6 / 8 & 95 & GPU (processamento de vértices); no limite de potência & limite encontrado \\
+\bottomrule
+\end{tabularx}
+\end{table}

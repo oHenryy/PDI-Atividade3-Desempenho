@@ -1,0 +1,21 @@
+Data/hora: 2026-11-09 18:27:07
+Sistema operacional: Windows 11 Professional 25H2 (build 26200)
+CPU: Intel(R) Core(TM) Ultra 7 155H | 16 nucleos fisicos / 22 processadores logicos
+RAM: 31.5 GB
+Adaptadores graficos (DXGI):
+  - NVIDIA GeForce RTX 4060 Laptop GPU | fabricante 0x10DE | VRAM dedicada 7956 MB | compartilhada 18361 MB | dedicada
+  - Intel(R) Arc(TM) Graphics | fabricante 0x8086 | VRAM dedicada 128 MB | compartilhada 18361 MB | integrada
+OpenGL: 4.6.0 NVIDIA 621.01
+GLSL: 4.60 NVIDIA
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER (dispositivo que atende a aplicacao): NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2
+Executavel pede GPU dedicada (NvOptimusEnablement): sim
+V-Sync (intervalo de troca): 0 (desligado)
+Janela: 1280 x 720 pixels
+Contador de ciclos da CPU (TSC): 2995 MHz
+Consulta de tempo da GPU (GL_TIME_ELAPSED): sim
+Filtragem anisotropica: sim (8x)
+NVML: NVIDIA GeForce RTX 4060 Laptop GPU
+Texturas: 3 x 1024x1024 RGBA8 + mipmaps (16.0 MB)
+Triangulos do cenario fixo (piso + no + lampada): 17424
+

@@ -1,0 +1,394 @@
+﻿Data/hora: 2026-11-09 14:14:35
+Sistema operacional: Windows 11 Professional 25H2 (build 26200)
+CPU: Intel(R) Core(TM) Ultra 7 155H | 16 nucleos fisicos / 22 processadores logicos
+RAM: 31.5 GB
+Adaptadores graficos (DXGI):
+  - NVIDIA GeForce RTX 4060 Laptop GPU | fabricante 0x10DE | VRAM dedicada 7956 MB | compartilhada 18361 MB | dedicada
+  - Intel(R) Arc(TM) Graphics | fabricante 0x8086 | VRAM dedicada 128 MB | compartilhada 18361 MB | integrada
+OpenGL: 4.6.0 NVIDIA 621.01
+GLSL: 4.60 NVIDIA
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER (dispositivo que atende a aplicacao): NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2
+Executavel pede GPU dedicada (NvOptimusEnablement): sim
+V-Sync (intervalo de troca): 0 (desligado)
+Janela: 1280 x 720 pixels
+Contador de ciclos da CPU (TSC): 2995 MHz
+Consulta de tempo da GPU (GL_TIME_ELAPSED): sim
+Filtragem anisotropica: sim (8x)
+NVML: NVIDIA GeForce RTX 4060 Laptop GPU
+Texturas: 3 x 1024x1024 RGBA8 + mipmaps (16.0 MB)
+Triangulos do cenario fixo (piso + no + lampada): 17424
+
+Captura salva: resultados/capturas/cena_A
+Captura salva: resultados/capturas/cena_B
+Captura salva: resultados/capturas/cena_C
+Captura salva: resultados/capturas/cena_D
+Captura salva: resultados/capturas/cena_E
+Captura salva: resultados/capturas/cena_F
+Captura salva: resultados/capturas/aramado_T8
+Captura salva: resultados/capturas/aramado_T24
+Captura salva: resultados/capturas/orbes_N1024_T16
+Data/hora: 2026-11-09 14:14:50
+Sistema operacional: Windows 11 Professional 25H2 (build 26200)
+CPU: Intel(R) Core(TM) Ultra 7 155H | 16 nucleos fisicos / 22 processadores logicos
+RAM: 31.5 GB
+Adaptadores graficos (DXGI):
+  - NVIDIA GeForce RTX 4060 Laptop GPU | fabricante 0x10DE | VRAM dedicada 7956 MB | compartilhada 18361 MB | dedicada
+  - Intel(R) Arc(TM) Graphics | fabricante 0x8086 | VRAM dedicada 128 MB | compartilhada 18361 MB | integrada
+OpenGL: 4.6.0 NVIDIA 621.01
+GLSL: 4.60 NVIDIA
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER (dispositivo que atende a aplicacao): NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2
+Executavel pede GPU dedicada (NvOptimusEnablement): sim
+V-Sync (intervalo de troca): 0 (desligado)
+Janela: 1280 x 720 pixels
+Contador de ciclos da CPU (TSC): 2995 MHz
+Consulta de tempo da GPU (GL_TIME_ELAPSED): sim
+Filtragem anisotropica: sim (8x)
+NVML: NVIDIA GeForce RTX 4060 Laptop GPU
+Texturas: 3 x 1024x1024 RGBA8 + mipmaps (16.0 MB)
+Triangulos do cenario fixo (piso + no + lampada): 17424
+
+
+=== Benchmark 'e1_vbo_T' | modo VBO | variavel T | configs ABCDEF | 3 x 10 s (+2 s estab.) ===
+
+--- Configuracao A (sem iluminacao, sem textura) ---
+  [A] T=16    tri=78.864       rep 1/3:  1719.12 FPS    0.582 ms  (emissao 0.299 ms, CPU ativa 0.558 ms, GPU 0.028 ms)  CPU 4.9% thr 95% thrMax 95%  GPU nv 10% intel 0%
+  [A] T=16    tri=78.864       rep 2/3:  1714.52 FPS    0.583 ms  (emissao 0.299 ms, CPU ativa 0.558 ms, GPU 0.028 ms)  CPU 5.0% thr 97% thrMax 97%  GPU nv 10% intel 0%
+  [A] T=16    tri=78.864       rep 3/3:  1752.54 FPS    0.571 ms  (emissao 0.293 ms, CPU ativa 0.552 ms, GPU 0.028 ms)  CPU 4.9% thr 96% thrMax 96%  GPU nv 11% intel 0%
+  => [A] T=16 (grossa) tri=78.864: FPS medio 1728.73 +- 20.75 
+  [A] T=64    tri=1.049.616    rep 1/3:  1801.37 FPS    0.555 ms  (emissao 0.300 ms, CPU ativa 0.533 ms, GPU 0.181 ms)  CPU 4.8% thr 94% thrMax 94%  GPU nv 38% intel 0%
+  [A] T=64    tri=1.049.616    rep 2/3:  1792.15 FPS    0.558 ms  (emissao 0.303 ms, CPU ativa 0.538 ms, GPU 0.181 ms)  CPU 4.9% thr 97% thrMax 97%  GPU nv 39% intel 0%
+  [A] T=64    tri=1.049.616    rep 3/3:  1839.88 FPS    0.544 ms  (emissao 0.295 ms, CPU ativa 0.532 ms, GPU 0.182 ms)  CPU 5.0% thr 98% thrMax 98%  GPU nv 40% intel 0%
+  => [A] T=64 (grossa) tri=1.049.616: FPS medio 1811.13 +- 25.32 
+  [A] T=128   tri=4.178.960    rep 1/3:  1023.27 FPS    0.977 ms  (emissao 0.302 ms, CPU ativa 0.553 ms, GPU 0.853 ms)  CPU 3.1% thr 59% thrMax 59%  GPU nv 63% intel 0%
+  [A] T=128   tri=4.178.960    rep 2/3:  1022.46 FPS    0.978 ms  (emissao 0.313 ms, CPU ativa 0.574 ms, GPU 0.853 ms)  CPU 3.2% thr 62% thrMax 62%  GPU nv 63% intel 0%
+  [A] T=128   tri=4.178.960    rep 3/3:  1026.48 FPS    0.974 ms  (emissao 0.315 ms, CPU ativa 0.580 ms, GPU 0.855 ms)  CPU 3.1% thr 58% thrMax 58%  GPU nv 63% intel 0%
+  => [A] T=128 (grossa) tri=4.178.960: FPS medio 1024.07 +- 2.12 
+  [A] T=192   tri=9.405.456    rep 1/3:   532.35 FPS    1.878 ms  (emissao 0.321 ms, CPU ativa 0.603 ms, GPU 1.855 ms)  CPU 1.9% thr 32% thrMax 32%  GPU nv 75% intel 0%
+  [A] T=192   tri=9.405.456    rep 2/3:   532.29 FPS    1.879 ms  (emissao 0.321 ms, CPU ativa 0.603 ms, GPU 1.855 ms)  CPU 1.9% thr 31% thrMax 31%  GPU nv 75% intel 0%
+  [A] T=192   tri=9.405.456    rep 3/3:   532.45 FPS    1.878 ms  (emissao 0.318 ms, CPU ativa 0.585 ms, GPU 1.854 ms)  CPU 1.8% thr 32% thrMax 32%  GPU nv 74% intel 0%
+  => [A] T=192 (grossa) tri=9.405.456: FPS medio 532.36 +- 0.08 
+  [A] T=256   tri=16.729.104   rep 1/3:   313.50 FPS    3.190 ms  (emissao 0.333 ms, CPU ativa 0.646 ms, GPU 3.166 ms)  CPU 1.3% thr 20% thrMax 20%  GPU nv 85% intel 0%
+  [A] T=256   tri=16.729.104   rep 2/3:   313.57 FPS    3.189 ms  (emissao 0.321 ms, CPU ativa 0.628 ms, GPU 3.166 ms)  CPU 1.3% thr 20% thrMax 20%  GPU nv 85% intel 0%
+  [A] T=256   tri=16.729.104   rep 3/3:   313.57 FPS    3.189 ms  (emissao 0.322 ms, CPU ativa 0.629 ms, GPU 3.166 ms)  CPU 1.3% thr 21% thrMax 21%  GPU nv 85% intel 0%
+  => [A] T=256 (grossa) tri=16.729.104: FPS medio 313.55 +- 0.04 
+  [A] T=320   tri=26.149.904   rep 1/3:   204.83 FPS    4.882 ms  (emissao 0.346 ms, CPU ativa 0.684 ms, GPU 4.857 ms)  CPU 1.0% thr 15% thrMax 16%  GPU nv 90% intel 0%
+  [A] T=320   tri=26.149.904   rep 2/3:   204.83 FPS    4.882 ms  (emissao 0.349 ms, CPU ativa 0.689 ms, GPU 4.857 ms)  CPU 1.0% thr 13% thrMax 15%  GPU nv 90% intel 0%
+  [A] T=320   tri=26.149.904   rep 3/3:   204.87 FPS    4.881 ms  (emissao 0.349 ms, CPU ativa 0.682 ms, GPU 4.856 ms)  CPU 1.0% thr 14% thrMax 16%  GPU nv 90% intel 0%
+  => [A] T=320 (grossa) tri=26.149.904: FPS medio 204.84 +- 0.02 
+  [A] T=384   tri=37.667.856   rep 1/3:   144.07 FPS    6.941 ms  (emissao 0.361 ms, CPU ativa 0.731 ms, GPU 6.915 ms)  CPU 0.8% thr 10% thrMax 12%  GPU nv 93% intel 0%
+  [A] T=384   tri=37.667.856   rep 2/3:   144.07 FPS    6.941 ms  (emissao 0.360 ms, CPU ativa 0.719 ms, GPU 6.916 ms)  CPU 0.9% thr 11% thrMax 13%  GPU nv 93% intel 0%
+  [A] T=384   tri=37.667.856   rep 3/3:   144.08 FPS    6.940 ms  (emissao 0.368 ms, CPU ativa 0.741 ms, GPU 6.915 ms)  CPU 0.8% thr 10% thrMax 11%  GPU nv 93% intel 0%
+  => [A] T=384 (grossa) tri=37.667.856: FPS medio 144.07 +- 0.01 
+  [A] T=448   tri=51.282.960   rep 1/3:   106.55 FPS    9.385 ms  (emissao 0.403 ms, CPU ativa 0.890 ms, GPU 9.361 ms)  CPU 0.8% thr 8% thrMax 12%  GPU nv 95% intel 0%
+  [A] T=448   tri=51.282.960   rep 2/3:   106.53 FPS    9.387 ms  (emissao 0.414 ms, CPU ativa 0.918 ms, GPU 9.362 ms)  CPU 0.9% thr 11% thrMax 13%  GPU nv 95% intel 0%
+  [A] T=448   tri=51.282.960   rep 3/3:   106.53 FPS    9.387 ms  (emissao 0.415 ms, CPU ativa 0.899 ms, GPU 9.362 ms)  CPU 0.9% thr 10% thrMax 13%  GPU nv 95% intel 0%
+  => [A] T=448 (grossa) tri=51.282.960: FPS medio 106.54 +- 0.01 
+  [A] T=512   tri=66.995.216   rep 1/3:    81.96 FPS   12.201 ms  (emissao 0.415 ms, CPU ativa 0.895 ms, GPU 12.176 ms)  CPU 0.7% thr 8% thrMax 9%  GPU nv 96% intel 0%
+  [A] T=512   tri=66.995.216   rep 2/3:    81.97 FPS   12.200 ms  (emissao 0.445 ms, CPU ativa 0.942 ms, GPU 12.176 ms)  CPU 0.7% thr 7% thrMax 9%  GPU nv 96% intel 0%
+  [A] T=512   tri=66.995.216   rep 3/3:    81.96 FPS   12.201 ms  (emissao 0.431 ms, CPU ativa 0.950 ms, GPU 12.178 ms)  CPU 0.7% thr 8% thrMax 9%  GPU nv 96% intel 0%
+  => [A] T=512 (grossa) tri=66.995.216: FPS medio 81.96 +- 0.00 
+  [A] T=640   tri=104.711.184  rep 1/3:    47.49 FPS   21.057 ms  (emissao 0.555 ms, CPU ativa 1.128 ms, GPU 21.030 ms)  CPU 0.7% thr 6% thrMax 8%  GPU nv 98% intel 0%
+  [A] T=640   tri=104.711.184  rep 2/3:    47.38 FPS   21.106 ms  (emissao 0.550 ms, CPU ativa 1.120 ms, GPU 21.079 ms)  CPU 0.6% thr 5% thrMax 8%  GPU nv 97% intel 0%
+  [A] T=640   tri=104.711.184  rep 3/3:    47.28 FPS   21.150 ms  (emissao 0.556 ms, CPU ativa 1.122 ms, GPU 21.124 ms)  CPU 0.6% thr 6% thrMax 8%  GPU nv 98% intel 0%
+  => [A] T=640 (grossa) tri=104.711.184: FPS medio 47.38 +- 0.10 (< 60)
+  [A] T=576   tri=84.804.624   rep 1/3:    58.15 FPS   17.197 ms  (emissao 0.519 ms, CPU ativa 1.047 ms, GPU 17.171 ms)  CPU 0.7% thr 8% thrMax 9%  GPU nv 97% intel 0%
+  [A] T=576   tri=84.804.624   rep 2/3:    58.09 FPS   17.214 ms  (emissao 0.510 ms, CPU ativa 1.035 ms, GPU 17.188 ms)  CPU 0.7% thr 7% thrMax 8%  GPU nv 96% intel 0%
+  [A] T=576   tri=84.804.624   rep 3/3:    58.04 FPS   17.230 ms  (emissao 0.509 ms, CPU ativa 1.042 ms, GPU 17.203 ms)  CPU 0.6% thr 6% thrMax 8%  GPU nv 97% intel 0%
+  => [A] T=576 (refino) tri=84.804.624: FPS medio 58.09 +- 0.06 (< 60)
+  [A] T=544   tri=75.637.776   rep 1/3:    72.62 FPS   13.770 ms  (emissao 0.455 ms, CPU ativa 0.956 ms, GPU 13.744 ms)  CPU 0.8% thr 7% thrMax 10%  GPU nv 96% intel 0%
+  [A] T=544   tri=75.637.776   rep 2/3:    72.61 FPS   13.771 ms  (emissao 0.474 ms, CPU ativa 0.985 ms, GPU 13.746 ms)  CPU 0.8% thr 8% thrMax 10%  GPU nv 96% intel 0%
+  [A] T=544   tri=75.637.776   rep 3/3:    72.61 FPS   13.771 ms  (emissao 0.475 ms, CPU ativa 0.980 ms, GPU 13.745 ms)  CPU 0.7% thr 7% thrMax 9%  GPU nv 96% intel 0%
+  => [A] T=544 (refino) tri=75.637.776: FPS medio 72.62 +- 0.00 
+  [A] T=560   tri=80.155.664   rep 1/3:    63.22 FPS   15.818 ms  (emissao 0.497 ms, CPU ativa 1.007 ms, GPU 15.792 ms)  CPU 0.6% thr 6% thrMax 10%  GPU nv 97% intel 0%
+  [A] T=560   tri=80.155.664   rep 2/3:    63.17 FPS   15.831 ms  (emissao 0.483 ms, CPU ativa 1.036 ms, GPU 15.805 ms)  CPU 0.7% thr 7% thrMax 11%  GPU nv 97% intel 0%
+  [A] T=560   tri=80.155.664   rep 3/3:    63.12 FPS   15.843 ms  (emissao 0.492 ms, CPU ativa 1.011 ms, GPU 15.817 ms)  CPU 0.6% thr 5% thrMax 9%  GPU nv 97% intel 0%
+  => [A] T=560 (refino) tri=80.155.664: FPS medio 63.17 +- 0.05 
+  [A] T=568   tri=82.463.760   rep 1/3:    59.85 FPS   16.708 ms  (emissao 0.513 ms, CPU ativa 1.047 ms, GPU 16.683 ms)  CPU 0.7% thr 7% thrMax 8%  GPU nv 97% intel 0%
+  [A] T=568   tri=82.463.760   rep 2/3:    59.86 FPS   16.706 ms  (emissao 0.482 ms, CPU ativa 0.995 ms, GPU 16.682 ms)  CPU 0.6% thr 6% thrMax 8%  GPU nv 92% intel 0%
+  [A] T=568   tri=82.463.760   rep 3/3:    59.83 FPS   16.715 ms  (emissao 0.501 ms, CPU ativa 1.025 ms, GPU 16.690 ms)  CPU 0.6% thr 6% thrMax 8%  GPU nv 97% intel 0%
+  => [A] T=568 (refino) tri=82.463.760: FPS medio 59.84 +- 0.02 (< 60)
+  [A] T=768   tri=150.815.760  rep 1/3:    32.84 FPS   30.451 ms  (emissao 0.608 ms, CPU ativa 1.309 ms, GPU 30.427 ms)  CPU 0.5% thr 3% thrMax 9%  GPU nv 98% intel 0%
+  [A] T=768   tri=150.815.760  rep 2/3:    32.84 FPS   30.454 ms  (emissao 0.588 ms, CPU ativa 1.231 ms, GPU 30.428 ms)  CPU 0.7% thr 5% thrMax 10%  GPU nv 98% intel 0%
+  [A] T=768   tri=150.815.760  rep 3/3:    32.86 FPS   30.432 ms  (emissao 0.588 ms, CPU ativa 1.232 ms, GPU 30.410 ms)  CPU 0.6% thr 3% thrMax 9%  GPU nv 98% intel 0%
+  => [A] T=768 (grossa) tri=150.815.760: FPS medio 32.85 +- 0.01 (< 60)
+--- Config A: limite encontrado | ultimo >= 60: 80.155.664 tri (63.2 FPS) | primeiro < 60: 82.463.760 tri (59.8 FPS)
+
+--- Configuracao B (omnidirecional, sem textura) ---
+  [B] T=16    tri=78.864       rep 1/3:  1749.73 FPS    0.572 ms  (emissao 0.302 ms, CPU ativa 0.556 ms, GPU 0.043 ms)  CPU 5.2% thr 98% thrMax 98%  GPU nv 13% intel 0%
+  [B] T=16    tri=78.864       rep 2/3:  1740.76 FPS    0.574 ms  (emissao 0.302 ms, CPU ativa 0.556 ms, GPU 0.043 ms)  CPU 5.0% thr 96% thrMax 96%  GPU nv 13% intel 0%
+  [B] T=16    tri=78.864       rep 3/3:  1666.18 FPS    0.600 ms  (emissao 0.310 ms, CPU ativa 0.561 ms, GPU 0.043 ms)  CPU 4.9% thr 93% thrMax 93%  GPU nv 13% intel 0%
+  => [B] T=16 (grossa) tri=78.864: FPS medio 1718.89 +- 45.87 
+  [B] T=64    tri=1.049.616    rep 1/3:  1642.78 FPS    0.609 ms  (emissao 0.328 ms, CPU ativa 0.564 ms, GPU 0.195 ms)  CPU 4.9% thr 93% thrMax 92%  GPU nv 37% intel 0%
+  [B] T=64    tri=1.049.616    rep 2/3:  1616.84 FPS    0.618 ms  (emissao 0.334 ms, CPU ativa 0.567 ms, GPU 0.194 ms)  CPU 4.9% thr 92% thrMax 92%  GPU nv 37% intel 0%
+  [B] T=64    tri=1.049.616    rep 3/3:  1667.08 FPS    0.600 ms  (emissao 0.324 ms, CPU ativa 0.562 ms, GPU 0.195 ms)  CPU 5.0% thr 95% thrMax 95%  GPU nv 38% intel 0%
+  => [B] T=64 (grossa) tri=1.049.616: FPS medio 1642.24 +- 25.13 
+  [B] T=128   tri=4.178.960    rep 1/3:  1007.90 FPS    0.992 ms  (emissao 0.312 ms, CPU ativa 0.572 ms, GPU 0.857 ms)  CPU 3.1% thr 58% thrMax 58%  GPU nv 62% intel 0%
+  [B] T=128   tri=4.178.960    rep 2/3:  1003.27 FPS    0.997 ms  (emissao 0.315 ms, CPU ativa 0.575 ms, GPU 0.855 ms)  CPU 3.3% thr 62% thrMax 62%  GPU nv 62% intel 0%
+  [B] T=128   tri=4.178.960    rep 3/3:  1008.27 FPS    0.992 ms  (emissao 0.314 ms, CPU ativa 0.575 ms, GPU 0.857 ms)  CPU 3.0% thr 58% thrMax 57%  GPU nv 62% intel 0%
+  => [B] T=128 (grossa) tri=4.178.960: FPS medio 1006.48 +- 2.78 
+  [B] T=192   tri=9.405.456    rep 1/3:   529.90 FPS    1.887 ms  (emissao 0.314 ms, CPU ativa 0.577 ms, GPU 1.863 ms)  CPU 1.9% thr 32% thrMax 33%  GPU nv 75% intel 0%
+  [B] T=192   tri=9.405.456    rep 2/3:   529.83 FPS    1.887 ms  (emissao 0.318 ms, CPU ativa 0.577 ms, GPU 1.864 ms)  CPU 1.8% thr 30% thrMax 30%  GPU nv 74% intel 0%
+  [B] T=192   tri=9.405.456    rep 3/3:   530.07 FPS    1.887 ms  (emissao 0.314 ms, CPU ativa 0.583 ms, GPU 1.863 ms)  CPU 1.8% thr 31% thrMax 31%  GPU nv 75% intel 0%
+  => [B] T=192 (grossa) tri=9.405.456: FPS medio 529.94 +- 0.12 
+  [B] T=256   tri=16.729.104   rep 1/3:   312.94 FPS    3.195 ms  (emissao 0.331 ms, CPU ativa 0.621 ms, GPU 3.172 ms)  CPU 1.4% thr 19% thrMax 19%  GPU nv 85% intel 0%
+  [B] T=256   tri=16.729.104   rep 2/3:   312.89 FPS    3.196 ms  (emissao 0.332 ms, CPU ativa 0.641 ms, GPU 3.173 ms)  CPU 1.4% thr 20% thrMax 20%  GPU nv 85% intel 0%
+  [B] T=256   tri=16.729.104   rep 3/3:   312.90 FPS    3.196 ms  (emissao 0.321 ms, CPU ativa 0.601 ms, GPU 3.172 ms)  CPU 1.3% thr 18% thrMax 18%  GPU nv 85% intel 0%
+  => [B] T=256 (grossa) tri=16.729.104: FPS medio 312.91 +- 0.03 
+  [B] T=320   tri=26.149.904   rep 1/3:   204.45 FPS    4.891 ms  (emissao 0.345 ms, CPU ativa 0.670 ms, GPU 4.866 ms)  CPU 1.1% thr 15% thrMax 15%  GPU nv 90% intel 0%
+  [B] T=320   tri=26.149.904   rep 2/3:   204.47 FPS    4.891 ms  (emissao 0.345 ms, CPU ativa 0.658 ms, GPU 4.866 ms)  CPU 1.1% thr 14% thrMax 14%  GPU nv 90% intel 0%
+  [B] T=320   tri=26.149.904   rep 3/3:   204.50 FPS    4.890 ms  (emissao 0.348 ms, CPU ativa 0.663 ms, GPU 4.865 ms)  CPU 1.1% thr 13% thrMax 13%  GPU nv 90% intel 0%
+  => [B] T=320 (grossa) tri=26.149.904: FPS medio 204.47 +- 0.02 
+  [B] T=384   tri=37.667.856   rep 1/3:   143.88 FPS    6.950 ms  (emissao 0.375 ms, CPU ativa 0.736 ms, GPU 6.926 ms)  CPU 0.9% thr 11% thrMax 13%  GPU nv 93% intel 0%
+  [B] T=384   tri=37.667.856   rep 2/3:   143.86 FPS    6.951 ms  (emissao 0.377 ms, CPU ativa 0.744 ms, GPU 6.926 ms)  CPU 0.9% thr 10% thrMax 12%  GPU nv 93% intel 0%
+  [B] T=384   tri=37.667.856   rep 3/3:   143.88 FPS    6.950 ms  (emissao 0.365 ms, CPU ativa 0.731 ms, GPU 6.926 ms)  CPU 0.9% thr 11% thrMax 12%  GPU nv 93% intel 0%
+  => [B] T=384 (grossa) tri=37.667.856: FPS medio 143.87 +- 0.01 
+  [B] T=448   tri=51.282.960   rep 1/3:   106.50 FPS    9.390 ms  (emissao 0.436 ms, CPU ativa 0.865 ms, GPU 9.365 ms)  CPU 0.9% thr 9% thrMax 13%  GPU nv 95% intel 0%
+  [B] T=448   tri=51.282.960   rep 2/3:   106.49 FPS    9.391 ms  (emissao 0.414 ms, CPU ativa 0.861 ms, GPU 9.366 ms)  CPU 0.9% thr 9% thrMax 13%  GPU nv 95% intel 0%
+  [B] T=448   tri=51.282.960   rep 3/3:   106.49 FPS    9.391 ms  (emissao 0.418 ms, CPU ativa 0.880 ms, GPU 9.366 ms)  CPU 0.8% thr 8% thrMax 13%  GPU nv 95% intel 0%
+  => [B] T=448 (grossa) tri=51.282.960: FPS medio 106.49 +- 0.00 
+  [B] T=512   tri=66.995.216   rep 1/3:    81.92 FPS   12.207 ms  (emissao 0.454 ms, CPU ativa 0.972 ms, GPU 12.181 ms)  CPU 0.8% thr 8% thrMax 10%  GPU nv 96% intel 0%
+  [B] T=512   tri=66.995.216   rep 2/3:    81.93 FPS   12.206 ms  (emissao 0.441 ms, CPU ativa 0.873 ms, GPU 12.180 ms)  CPU 0.8% thr 8% thrMax 10%  GPU nv 96% intel 0%
+  [B] T=512   tri=66.995.216   rep 3/3:    81.92 FPS   12.207 ms  (emissao 0.434 ms, CPU ativa 0.861 ms, GPU 12.182 ms)  CPU 0.8% thr 8% thrMax 10%  GPU nv 96% intel 0%
+  => [B] T=512 (grossa) tri=66.995.216: FPS medio 81.92 +- 0.01 
+  [B] T=640   tri=104.711.184  rep 1/3:    46.45 FPS   21.530 ms  (emissao 0.549 ms, CPU ativa 1.111 ms, GPU 21.503 ms)  CPU 0.6% thr 5% thrMax 9%  GPU nv 97% intel 0%
+  [B] T=640   tri=104.711.184  rep 2/3:    46.39 FPS   21.557 ms  (emissao 0.553 ms, CPU ativa 1.146 ms, GPU 21.531 ms)  CPU 0.7% thr 6% thrMax 9%  GPU nv 98% intel 0%
+  [B] T=640   tri=104.711.184  rep 3/3:    46.33 FPS   21.585 ms  (emissao 0.556 ms, CPU ativa 1.182 ms, GPU 21.560 ms)  CPU 0.7% thr 5% thrMax 9%  GPU nv 97% intel 0%
+  => [B] T=640 (grossa) tri=104.711.184: FPS medio 46.39 +- 0.06 (< 60)
+  [B] T=576   tri=84.804.624   rep 1/3:    57.01 FPS   17.541 ms  (emissao 0.497 ms, CPU ativa 1.002 ms, GPU 17.515 ms)  CPU 0.7% thr 7% thrMax 9%  GPU nv 97% intel 0%
+  [B] T=576   tri=84.804.624   rep 2/3:    57.06 FPS   17.524 ms  (emissao 0.518 ms, CPU ativa 1.044 ms, GPU 17.500 ms)  CPU 0.7% thr 6% thrMax 10%  GPU nv 97% intel 0%
+  [B] T=576   tri=84.804.624   rep 3/3:    57.06 FPS   17.526 ms  (emissao 0.511 ms, CPU ativa 1.031 ms, GPU 17.501 ms)  CPU 0.7% thr 7% thrMax 9%  GPU nv 97% intel 0%
+  => [B] T=576 (refino) tri=84.804.624: FPS medio 57.04 +- 0.03 (< 60)
+  [B] T=544   tri=75.637.776   rep 1/3:    72.21 FPS   13.848 ms  (emissao 0.452 ms, CPU ativa 0.921 ms, GPU 13.822 ms)  CPU 0.7% thr 6% thrMax 10%  GPU nv 96% intel 0%
+  [B] T=544   tri=75.637.776   rep 2/3:    72.13 FPS   13.864 ms  (emissao 0.482 ms, CPU ativa 1.012 ms, GPU 13.839 ms)  CPU 0.8% thr 8% thrMax 10%  GPU nv 96% intel 0%
+  [B] T=544   tri=75.637.776   rep 3/3:    72.18 FPS   13.855 ms  (emissao 0.479 ms, CPU ativa 0.955 ms, GPU 13.830 ms)  CPU 0.7% thr 6% thrMax 10%  GPU nv 96% intel 0%
+  => [B] T=544 (refino) tri=75.637.776: FPS medio 72.17 +- 0.04 
+  [B] T=560   tri=80.155.664   rep 1/3:    62.84 FPS   15.913 ms  (emissao 0.498 ms, CPU ativa 1.000 ms, GPU 15.888 ms)  CPU 0.7% thr 6% thrMax 10%  GPU nv 97% intel 0%
+  [B] T=560   tri=80.155.664   rep 2/3:    62.86 FPS   15.908 ms  (emissao 0.506 ms, CPU ativa 1.019 ms, GPU 15.882 ms)  CPU 0.7% thr 7% thrMax 10%  GPU nv 97% intel 0%
+  [B] T=560   tri=80.155.664   rep 3/3:    62.79 FPS   15.927 ms  (emissao 0.509 ms, CPU ativa 1.057 ms, GPU 15.900 ms)  CPU 0.8% thr 8% thrMax 11%  GPU nv 97% intel 0%
+  => [B] T=560 (refino) tri=80.155.664: FPS medio 62.83 +- 0.04 
+  [B] T=568   tri=82.463.760   rep 1/3:    58.51 FPS   17.092 ms  (emissao 0.489 ms, CPU ativa 1.002 ms, GPU 17.066 ms)  CPU 0.7% thr 6% thrMax 9%  GPU nv 97% intel 0%
+  [B] T=568   tri=82.463.760   rep 2/3:    58.45 FPS   17.108 ms  (emissao 0.507 ms, CPU ativa 1.091 ms, GPU 17.082 ms)  CPU 0.7% thr 6% thrMax 10%  GPU nv 92% intel 0%
+  [B] T=568   tri=82.463.760   rep 3/3:    58.43 FPS   17.116 ms  (emissao 0.512 ms, CPU ativa 1.054 ms, GPU 17.089 ms)  CPU 0.7% thr 6% thrMax 9%  GPU nv 97% intel 0%
+  => [B] T=568 (refino) tri=82.463.760: FPS medio 58.46 +- 0.04 (< 60)
+  [B] T=768   tri=150.815.760  rep 1/3:    32.27 FPS   30.984 ms  (emissao 0.607 ms, CPU ativa 1.254 ms, GPU 30.956 ms)  CPU 0.6% thr 4% thrMax 10%  GPU nv 98% intel 0%
+  [B] T=768   tri=150.815.760  rep 2/3:    32.30 FPS   30.961 ms  (emissao 0.575 ms, CPU ativa 1.194 ms, GPU 30.935 ms)  CPU 0.6% thr 4% thrMax 11%  GPU nv 98% intel 0%
+  [B] T=768   tri=150.815.760  rep 3/3:    32.29 FPS   30.965 ms  (emissao 0.599 ms, CPU ativa 1.225 ms, GPU 30.938 ms)  CPU 0.6% thr 4% thrMax 11%  GPU nv 98% intel 0%
+  => [B] T=768 (grossa) tri=150.815.760: FPS medio 32.29 +- 0.01 (< 60)
+--- Config B: limite encontrado | ultimo >= 60: 80.155.664 tri (62.8 FPS) | primeiro < 60: 82.463.760 tri (58.5 FPS)
+
+--- Configuracao C (spot, sem textura) ---
+  [C] T=16    tri=78.864       rep 1/3:  1630.53 FPS    0.613 ms  (emissao 0.312 ms, CPU ativa 0.564 ms, GPU 0.035 ms)  CPU 4.9% thr 93% thrMax 93%  GPU nv 11% intel 0%
+  [C] T=16    tri=78.864       rep 2/3:  1648.69 FPS    0.607 ms  (emissao 0.309 ms, CPU ativa 0.565 ms, GPU 0.035 ms)  CPU 4.8% thr 92% thrMax 92%  GPU nv 11% intel 0%
+  [C] T=16    tri=78.864       rep 3/3:  1642.05 FPS    0.609 ms  (emissao 0.310 ms, CPU ativa 0.569 ms, GPU 0.035 ms)  CPU 5.0% thr 95% thrMax 95%  GPU nv 11% intel 0%
+  => [C] T=16 (grossa) tri=78.864: FPS medio 1640.43 +- 9.19 
+  [C] T=64    tri=1.049.616    rep 1/3:  1677.26 FPS    0.596 ms  (emissao 0.320 ms, CPU ativa 0.560 ms, GPU 0.187 ms)  CPU 5.0% thr 96% thrMax 96%  GPU nv 37% intel 0%
+  [C] T=64    tri=1.049.616    rep 2/3:  1687.23 FPS    0.593 ms  (emissao 0.319 ms, CPU ativa 0.556 ms, GPU 0.186 ms)  CPU 4.9% thr 92% thrMax 93%  GPU nv 37% intel 0%
+  [C] T=64    tri=1.049.616    rep 3/3:  1689.99 FPS    0.592 ms  (emissao 0.317 ms, CPU ativa 0.558 ms, GPU 0.187 ms)  CPU 5.0% thr 96% thrMax 96%  GPU nv 37% intel 0%
+  => [C] T=64 (grossa) tri=1.049.616: FPS medio 1684.83 +- 6.70 
+  [C] T=128   tri=4.178.960    rep 1/3:  1015.88 FPS    0.984 ms  (emissao 0.304 ms, CPU ativa 0.560 ms, GPU 0.851 ms)  CPU 2.9% thr 55% thrMax 55%  GPU nv 62% intel 0%
+  [C] T=128   tri=4.178.960    rep 2/3:  1012.59 FPS    0.988 ms  (emissao 0.310 ms, CPU ativa 0.551 ms, GPU 0.852 ms)  CPU 3.1% thr 58% thrMax 58%  GPU nv 62% intel 0%
+  [C] T=128   tri=4.178.960    rep 3/3:  1013.78 FPS    0.986 ms  (emissao 0.308 ms, CPU ativa 0.549 ms, GPU 0.854 ms)  CPU 3.1% thr 57% thrMax 58%  GPU nv 62% intel 0%
+  => [C] T=128 (grossa) tri=4.178.960: FPS medio 1014.08 +- 1.66 
+  [C] T=192   tri=9.405.456    rep 1/3:   528.28 FPS    1.893 ms  (emissao 0.311 ms, CPU ativa 0.571 ms, GPU 1.869 ms)  CPU 1.7% thr 27% thrMax 28%  GPU nv 74% intel 0%
+  [C] T=192   tri=9.405.456    rep 2/3:   528.36 FPS    1.893 ms  (emissao 0.312 ms, CPU ativa 0.573 ms, GPU 1.869 ms)  CPU 1.8% thr 31% thrMax 31%  GPU nv 75% intel 0%
+  [C] T=192   tri=9.405.456    rep 3/3:   528.69 FPS    1.891 ms  (emissao 0.314 ms, CPU ativa 0.587 ms, GPU 1.868 ms)  CPU 1.9% thr 32% thrMax 32%  GPU nv 75% intel 0%
+  => [C] T=192 (grossa) tri=9.405.456: FPS medio 528.44 +- 0.22 
+  [C] T=256   tri=16.729.104   rep 1/3:   311.29 FPS    3.212 ms  (emissao 0.328 ms, CPU ativa 0.628 ms, GPU 3.189 ms)  CPU 1.2% thr 18% thrMax 18%  GPU nv 85% intel 0%
+  [C] T=256   tri=16.729.104   rep 2/3:   311.13 FPS    3.214 ms  (emissao 0.321 ms, CPU ativa 0.620 ms, GPU 3.191 ms)  CPU 1.3% thr 18% thrMax 19%  GPU nv 85% intel 0%
+  [C] T=256   tri=16.729.104   rep 3/3:   311.19 FPS    3.213 ms  (emissao 0.317 ms, CPU ativa 0.611 ms, GPU 3.190 ms)  CPU 1.3% thr 19% thrMax 19%  GPU nv 85% intel 0%
+  => [C] T=256 (grossa) tri=16.729.104: FPS medio 311.20 +- 0.08 
+  [C] T=320   tri=26.149.904   rep 1/3:   203.31 FPS    4.919 ms  (emissao 0.325 ms, CPU ativa 0.638 ms, GPU 4.894 ms)  CPU 1.0% thr 12% thrMax 13%  GPU nv 90% intel 0%
+  [C] T=320   tri=26.149.904   rep 2/3:   203.32 FPS    4.918 ms  (emissao 0.338 ms, CPU ativa 0.693 ms, GPU 4.893 ms)  CPU 1.1% thr 14% thrMax 14%  GPU nv 90% intel 0%
+  [C] T=320   tri=26.149.904   rep 3/3:   203.34 FPS    4.918 ms  (emissao 0.337 ms, CPU ativa 0.657 ms, GPU 4.892 ms)  CPU 1.1% thr 14% thrMax 15%  GPU nv 90% intel 0%
+  => [C] T=320 (grossa) tri=26.149.904: FPS medio 203.32 +- 0.02 
+  [C] T=384   tri=37.667.856   rep 1/3:   143.20 FPS    6.983 ms  (emissao 0.363 ms, CPU ativa 0.727 ms, GPU 6.958 ms)  CPU 0.9% thr 11% thrMax 11%  GPU nv 93% intel 0%
+  [C] T=384   tri=37.667.856   rep 2/3:   143.20 FPS    6.983 ms  (emissao 0.361 ms, CPU ativa 0.698 ms, GPU 6.959 ms)  CPU 0.9% thr 11% thrMax 12%  GPU nv 93% intel 0%
+  [C] T=384   tri=37.667.856   rep 3/3:   143.21 FPS    6.983 ms  (emissao 0.363 ms, CPU ativa 0.699 ms, GPU 6.958 ms)  CPU 0.8% thr 9% thrMax 11%  GPU nv 93% intel 0%
+  => [C] T=384 (grossa) tri=37.667.856: FPS medio 143.20 +- 0.01 
+  [C] T=448   tri=51.282.960   rep 1/3:   105.90 FPS    9.443 ms  (emissao 0.437 ms, CPU ativa 0.907 ms, GPU 9.418 ms)  CPU 0.9% thr 10% thrMax 11%  GPU nv 95% intel 0%
+  [C] T=448   tri=51.282.960   rep 2/3:   105.88 FPS    9.444 ms  (emissao 0.397 ms, CPU ativa 0.811 ms, GPU 9.419 ms)  CPU 0.8% thr 8% thrMax 10%  GPU nv 95% intel 0%
+  [C] T=448   tri=51.282.960   rep 3/3:   105.87 FPS    9.445 ms  (emissao 0.393 ms, CPU ativa 0.803 ms, GPU 9.419 ms)  CPU 0.8% thr 9% thrMax 10%  GPU nv 95% intel 0%
+  => [C] T=448 (grossa) tri=51.282.960: FPS medio 105.88 +- 0.01 
+  [C] T=512   tri=66.995.216   rep 1/3:    81.88 FPS   12.213 ms  (emissao 0.424 ms, CPU ativa 0.867 ms, GPU 12.187 ms)  CPU 0.8% thr 8% thrMax 10%  GPU nv 96% intel 0%
+  [C] T=512   tri=66.995.216   rep 2/3:    81.90 FPS   12.210 ms  (emissao 0.433 ms, CPU ativa 0.912 ms, GPU 12.186 ms)  CPU 0.8% thr 8% thrMax 10%  GPU nv 96% intel 0%
+  [C] T=512   tri=66.995.216   rep 3/3:    81.88 FPS   12.213 ms  (emissao 0.427 ms, CPU ativa 0.875 ms, GPU 12.188 ms)  CPU 0.8% thr 8% thrMax 10%  GPU nv 96% intel 0%
+  => [C] T=512 (grossa) tri=66.995.216: FPS medio 81.89 +- 0.01 
+  [C] T=640   tri=104.711.184  rep 1/3:    46.47 FPS   21.521 ms  (emissao 0.552 ms, CPU ativa 1.165 ms, GPU 21.496 ms)  CPU 0.7% thr 5% thrMax 9%  GPU nv 98% intel 0%
+  [C] T=640   tri=104.711.184  rep 2/3:    46.45 FPS   21.530 ms  (emissao 0.532 ms, CPU ativa 1.122 ms, GPU 21.504 ms)  CPU 0.7% thr 6% thrMax 9%  GPU nv 98% intel 0%
+  [C] T=640   tri=104.711.184  rep 3/3:    46.41 FPS   21.548 ms  (emissao 0.548 ms, CPU ativa 1.123 ms, GPU 21.522 ms)  CPU 0.7% thr 6% thrMax 9%  GPU nv 98% intel 0%
+  => [C] T=640 (grossa) tri=104.711.184: FPS medio 46.44 +- 0.03 (< 60)
+  [C] T=576   tri=84.804.624   rep 1/3:    57.09 FPS   17.515 ms  (emissao 0.500 ms, CPU ativa 1.009 ms, GPU 17.489 ms)  CPU 0.7% thr 5% thrMax 10%  GPU nv 97% intel 0%
+  [C] T=576   tri=84.804.624   rep 2/3:    57.12 FPS   17.508 ms  (emissao 0.505 ms, CPU ativa 0.993 ms, GPU 17.481 ms)  CPU 0.6% thr 5% thrMax 9%  GPU nv 92% intel 0%
+  [C] T=576   tri=84.804.624   rep 3/3:    57.12 FPS   17.506 ms  (emissao 0.520 ms, CPU ativa 1.120 ms, GPU 17.481 ms)  CPU 0.7% thr 6% thrMax 10%  GPU nv 97% intel 0%
+  => [C] T=576 (refino) tri=84.804.624: FPS medio 57.11 +- 0.02 (< 60)
+  [C] T=544   tri=75.637.776   rep 1/3:    72.18 FPS   13.854 ms  (emissao 0.464 ms, CPU ativa 0.947 ms, GPU 13.828 ms)  CPU 0.7% thr 6% thrMax 10%  GPU nv 96% intel 0%
+  [C] T=544   tri=75.637.776   rep 2/3:    72.18 FPS   13.855 ms  (emissao 0.452 ms, CPU ativa 0.938 ms, GPU 13.830 ms)  CPU 0.7% thr 6% thrMax 10%  GPU nv 96% intel 0%
+  [C] T=544   tri=75.637.776   rep 3/3:    72.18 FPS   13.854 ms  (emissao 0.448 ms, CPU ativa 0.941 ms, GPU 13.829 ms)  CPU 0.7% thr 6% thrMax 10%  GPU nv 96% intel 0%
+  => [C] T=544 (refino) tri=75.637.776: FPS medio 72.18 +- 0.00 
+  [C] T=560   tri=80.155.664   rep 1/3:    62.92 FPS   15.893 ms  (emissao 0.471 ms, CPU ativa 0.992 ms, GPU 15.867 ms)  CPU 0.7% thr 6% thrMax 10%  GPU nv 97% intel 0%
+  [C] T=560   tri=80.155.664   rep 2/3:    62.91 FPS   15.896 ms  (emissao 0.502 ms, CPU ativa 1.041 ms, GPU 15.870 ms)  CPU 0.7% thr 6% thrMax 10%  GPU nv 97% intel 0%
+  [C] T=560   tri=80.155.664   rep 3/3:    62.85 FPS   15.910 ms  (emissao 0.490 ms, CPU ativa 0.979 ms, GPU 15.883 ms)  CPU 0.7% thr 5% thrMax 9%  GPU nv 97% intel 0%
+  => [C] T=560 (refino) tri=80.155.664: FPS medio 62.89 +- 0.04 
+  [C] T=568   tri=82.463.760   rep 1/3:    58.45 FPS   17.109 ms  (emissao 0.503 ms, CPU ativa 1.009 ms, GPU 17.083 ms)  CPU 0.7% thr 5% thrMax 9%  GPU nv 97% intel 0%
+  [C] T=568   tri=82.463.760   rep 2/3:    58.45 FPS   17.109 ms  (emissao 0.497 ms, CPU ativa 0.967 ms, GPU 17.084 ms)  CPU 0.7% thr 6% thrMax 10%  GPU nv 96% intel 0%
+  [C] T=568   tri=82.463.760   rep 3/3:    58.42 FPS   17.117 ms  (emissao 0.538 ms, CPU ativa 1.100 ms, GPU 17.091 ms)  CPU 0.7% thr 7% thrMax 10%  GPU nv 97% intel 0%
+  => [C] T=568 (refino) tri=82.463.760: FPS medio 58.44 +- 0.02 (< 60)
+  [C] T=768   tri=150.815.760  rep 1/3:    32.26 FPS   30.994 ms  (emissao 0.586 ms, CPU ativa 1.217 ms, GPU 30.965 ms)  CPU 0.6% thr 4% thrMax 10%  GPU nv 98% intel 0%
+  [C] T=768   tri=150.815.760  rep 2/3:    32.28 FPS   30.978 ms  (emissao 0.592 ms, CPU ativa 1.287 ms, GPU 30.950 ms)  CPU 0.6% thr 4% thrMax 10%  GPU nv 98% intel 0%
+  [C] T=768   tri=150.815.760  rep 3/3:    32.29 FPS   30.965 ms  (emissao 0.599 ms, CPU ativa 1.264 ms, GPU 30.937 ms)  CPU 0.6% thr 4% thrMax 10%  GPU nv 98% intel 0%
+  => [C] T=768 (grossa) tri=150.815.760: FPS medio 32.28 +- 0.02 (< 60)
+--- Config C: limite encontrado | ultimo >= 60: 80.155.664 tri (62.9 FPS) | primeiro < 60: 82.463.760 tri (58.4 FPS)
+
+--- Configuracao D (sem iluminacao, com textura) ---
+  [D] T=16    tri=78.864       rep 1/3:  1653.63 FPS    0.605 ms  (emissao 0.310 ms, CPU ativa 0.558 ms, GPU 0.031 ms)  CPU 5.0% thr 94% thrMax 94%  GPU nv 11% intel 0%
+  [D] T=16    tri=78.864       rep 2/3:  1614.79 FPS    0.619 ms  (emissao 0.313 ms, CPU ativa 0.559 ms, GPU 0.031 ms)  CPU 4.8% thr 90% thrMax 91%  GPU nv 10% intel 0%
+  [D] T=16    tri=78.864       rep 3/3:  1605.81 FPS    0.623 ms  (emissao 0.314 ms, CPU ativa 0.563 ms, GPU 0.031 ms)  CPU 4.9% thr 91% thrMax 91%  GPU nv 10% intel 0%
+  => [D] T=16 (grossa) tri=78.864: FPS medio 1624.74 +- 25.42 
+  [D] T=64    tri=1.049.616    rep 1/3:  1700.83 FPS    0.588 ms  (emissao 0.319 ms, CPU ativa 0.548 ms, GPU 0.184 ms)  CPU 5.0% thr 95% thrMax 95%  GPU nv 37% intel 0%
+  [D] T=64    tri=1.049.616    rep 2/3:  1676.86 FPS    0.596 ms  (emissao 0.324 ms, CPU ativa 0.549 ms, GPU 0.184 ms)  CPU 4.9% thr 93% thrMax 93%  GPU nv 36% intel 0%
+  [D] T=64    tri=1.049.616    rep 3/3:  1713.44 FPS    0.584 ms  (emissao 0.317 ms, CPU ativa 0.546 ms, GPU 0.184 ms)  CPU 4.9% thr 94% thrMax 94%  GPU nv 37% intel 0%
+  => [D] T=64 (grossa) tri=1.049.616: FPS medio 1697.04 +- 18.58 
+  [D] T=128   tri=4.178.960    rep 1/3:  1016.89 FPS    0.983 ms  (emissao 0.307 ms, CPU ativa 0.548 ms, GPU 0.854 ms)  CPU 3.1% thr 59% thrMax 59%  GPU nv 62% intel 0%
+  [D] T=128   tri=4.178.960    rep 2/3:  1014.64 FPS    0.986 ms  (emissao 0.313 ms, CPU ativa 0.554 ms, GPU 0.853 ms)  CPU 3.0% thr 58% thrMax 58%  GPU nv 62% intel 0%
+  [D] T=128   tri=4.178.960    rep 3/3:  1020.62 FPS    0.980 ms  (emissao 0.313 ms, CPU ativa 0.563 ms, GPU 0.854 ms)  CPU 3.2% thr 59% thrMax 59%  GPU nv 63% intel 0%
+  => [D] T=128 (grossa) tri=4.178.960: FPS medio 1017.38 +- 3.02 
+  [D] T=192   tri=9.405.456    rep 1/3:   529.90 FPS    1.887 ms  (emissao 0.321 ms, CPU ativa 0.597 ms, GPU 1.863 ms)  CPU 1.8% thr 31% thrMax 31%  GPU nv 75% intel 0%
+  [D] T=192   tri=9.405.456    rep 2/3:   530.48 FPS    1.885 ms  (emissao 0.313 ms, CPU ativa 0.578 ms, GPU 1.862 ms)  CPU 1.8% thr 32% thrMax 32%  GPU nv 75% intel 0%
+  [D] T=192   tri=9.405.456    rep 3/3:   530.98 FPS    1.883 ms  (emissao 0.314 ms, CPU ativa 0.584 ms, GPU 1.860 ms)  CPU 1.8% thr 30% thrMax 30%  GPU nv 75% intel 0%
+  => [D] T=192 (grossa) tri=9.405.456: FPS medio 530.45 +- 0.54 
+  [D] T=256   tri=16.729.104   rep 1/3:   313.10 FPS    3.194 ms  (emissao 0.333 ms, CPU ativa 0.633 ms, GPU 3.170 ms)  CPU 1.3% thr 19% thrMax 19%  GPU nv 85% intel 0%
+  [D] T=256   tri=16.729.104   rep 2/3:   313.06 FPS    3.194 ms  (emissao 0.331 ms, CPU ativa 0.620 ms, GPU 3.171 ms)  CPU 1.3% thr 18% thrMax 19%  GPU nv 85% intel 0%
+  [D] T=256   tri=16.729.104   rep 3/3:   313.10 FPS    3.194 ms  (emissao 0.336 ms, CPU ativa 0.644 ms, GPU 3.171 ms)  CPU 1.3% thr 20% thrMax 20%  GPU nv 85% intel 0%
+  => [D] T=256 (grossa) tri=16.729.104: FPS medio 313.09 +- 0.02 
+  [D] T=320   tri=26.149.904   rep 1/3:   204.47 FPS    4.891 ms  (emissao 0.355 ms, CPU ativa 0.680 ms, GPU 4.865 ms)  CPU 1.1% thr 13% thrMax 14%  GPU nv 90% intel 0%
+  [D] T=320   tri=26.149.904   rep 2/3:   204.48 FPS    4.890 ms  (emissao 0.340 ms, CPU ativa 0.650 ms, GPU 4.865 ms)  CPU 1.0% thr 13% thrMax 13%  GPU nv 89% intel 0%
+  [D] T=320   tri=26.149.904   rep 3/3:   204.52 FPS    4.889 ms  (emissao 0.342 ms, CPU ativa 0.661 ms, GPU 4.864 ms)  CPU 1.1% thr 14% thrMax 14%  GPU nv 90% intel 0%
+  => [D] T=320 (grossa) tri=26.149.904: FPS medio 204.49 +- 0.03 
+  [D] T=384   tri=37.667.856   rep 1/3:   143.89 FPS    6.950 ms  (emissao 0.361 ms, CPU ativa 0.714 ms, GPU 6.924 ms)  CPU 0.9% thr 9% thrMax 11%  GPU nv 93% intel 0%
+  [D] T=384   tri=37.667.856   rep 2/3:   143.89 FPS    6.950 ms  (emissao 0.368 ms, CPU ativa 0.762 ms, GPU 6.925 ms)  CPU 0.9% thr 11% thrMax 12%  GPU nv 93% intel 0%
+  [D] T=384   tri=37.667.856   rep 3/3:   143.90 FPS    6.949 ms  (emissao 0.364 ms, CPU ativa 0.699 ms, GPU 6.924 ms)  CPU 0.9% thr 11% thrMax 13%  GPU nv 93% intel 0%
+  => [D] T=384 (grossa) tri=37.667.856: FPS medio 143.89 +- 0.00 
+  [D] T=448   tri=51.282.960   rep 1/3:   106.35 FPS    9.403 ms  (emissao 0.405 ms, CPU ativa 0.820 ms, GPU 9.377 ms)  CPU 0.9% thr 9% thrMax 12%  GPU nv 95% intel 0%
+  [D] T=448   tri=51.282.960   rep 2/3:   106.35 FPS    9.403 ms  (emissao 0.420 ms, CPU ativa 0.845 ms, GPU 9.378 ms)  CPU 0.9% thr 9% thrMax 11%  GPU nv 95% intel 0%
+  [D] T=448   tri=51.282.960   rep 3/3:   106.35 FPS    9.403 ms  (emissao 0.417 ms, CPU ativa 0.854 ms, GPU 9.378 ms)  CPU 0.9% thr 9% thrMax 11%  GPU nv 95% intel 0%
+  => [D] T=448 (grossa) tri=51.282.960: FPS medio 106.35 +- 0.00 
+  [D] T=512   tri=66.995.216   rep 1/3:    81.90 FPS   12.210 ms  (emissao 0.445 ms, CPU ativa 0.925 ms, GPU 12.185 ms)  CPU 0.8% thr 7% thrMax 10%  GPU nv 96% intel 0%
+  [D] T=512   tri=66.995.216   rep 2/3:    81.90 FPS   12.209 ms  (emissao 0.437 ms, CPU ativa 0.870 ms, GPU 12.185 ms)  CPU 0.7% thr 7% thrMax 9%  GPU nv 96% intel 0%
+  [D] T=512   tri=66.995.216   rep 3/3:    81.90 FPS   12.210 ms  (emissao 0.431 ms, CPU ativa 0.862 ms, GPU 12.186 ms)  CPU 0.8% thr 7% thrMax 10%  GPU nv 90% intel 0%
+  => [D] T=512 (grossa) tri=66.995.216: FPS medio 81.90 +- 0.00 
+  [D] T=640   tri=104.711.184  rep 1/3:    46.94 FPS   21.305 ms  (emissao 0.576 ms, CPU ativa 1.135 ms, GPU 21.281 ms)  CPU 0.7% thr 5% thrMax 10%  GPU nv 97% intel 0%
+  [D] T=640   tri=104.711.184  rep 2/3:    46.84 FPS   21.351 ms  (emissao 0.542 ms, CPU ativa 1.113 ms, GPU 21.325 ms)  CPU 0.7% thr 6% thrMax 10%  GPU nv 97% intel 0%
+  [D] T=640   tri=104.711.184  rep 3/3:    46.76 FPS   21.385 ms  (emissao 0.564 ms, CPU ativa 1.159 ms, GPU 21.360 ms)  CPU 0.7% thr 5% thrMax 10%  GPU nv 98% intel 0%
+  => [D] T=640 (grossa) tri=104.711.184: FPS medio 46.84 +- 0.09 (< 60)
+  [D] T=576   tri=84.804.624   rep 1/3:    57.57 FPS   17.371 ms  (emissao 0.525 ms, CPU ativa 1.110 ms, GPU 17.343 ms)  CPU 0.7% thr 7% thrMax 10%  GPU nv 97% intel 0%
+  [D] T=576   tri=84.804.624   rep 2/3:    57.57 FPS   17.370 ms  (emissao 0.478 ms, CPU ativa 1.010 ms, GPU 17.344 ms)  CPU 0.7% thr 7% thrMax 10%  GPU nv 97% intel 0%
+  [D] T=576   tri=84.804.624   rep 3/3:    57.52 FPS   17.385 ms  (emissao 0.492 ms, CPU ativa 1.006 ms, GPU 17.357 ms)  CPU 0.7% thr 5% thrMax 10%  GPU nv 97% intel 0%
+  => [D] T=576 (refino) tri=84.804.624: FPS medio 57.55 +- 0.03 (< 60)
+  [D] T=544   tri=75.637.776   rep 1/3:    72.15 FPS   13.859 ms  (emissao 0.471 ms, CPU ativa 0.938 ms, GPU 13.835 ms)  CPU 0.7% thr 7% thrMax 10%  GPU nv 96% intel 0%
+  [D] T=544   tri=75.637.776   rep 2/3:    72.15 FPS   13.861 ms  (emissao 0.476 ms, CPU ativa 0.945 ms, GPU 13.835 ms)  CPU 0.7% thr 6% thrMax 10%  GPU nv 96% intel 0%
+  [D] T=544   tri=75.637.776   rep 3/3:    72.15 FPS   13.859 ms  (emissao 0.474 ms, CPU ativa 0.978 ms, GPU 13.835 ms)  CPU 0.7% thr 7% thrMax 9%  GPU nv 96% intel 0%
+  => [D] T=544 (refino) tri=75.637.776: FPS medio 72.15 +- 0.00 
+  [D] T=560   tri=80.155.664   rep 1/3:    63.77 FPS   15.681 ms  (emissao 0.494 ms, CPU ativa 0.988 ms, GPU 15.655 ms)  CPU 0.6% thr 5% thrMax 12%  GPU nv 97% intel 0%
+  [D] T=560   tri=80.155.664   rep 2/3:    63.78 FPS   15.680 ms  (emissao 0.472 ms, CPU ativa 0.949 ms, GPU 15.653 ms)  CPU 0.9% thr 10% thrMax 17%  GPU nv 97% intel 0%
+  [D] T=560   tri=80.155.664   rep 3/3:    63.70 FPS   15.697 ms  (emissao 0.497 ms, CPU ativa 1.029 ms, GPU 15.671 ms)  CPU 0.8% thr 7% thrMax 14%  GPU nv 97% intel 0%
+  => [D] T=560 (refino) tri=80.155.664: FPS medio 63.75 +- 0.04 
+  [D] T=568   tri=82.463.760   rep 1/3:    59.29 FPS   16.866 ms  (emissao 0.526 ms, CPU ativa 1.056 ms, GPU 16.841 ms)  CPU 0.7% thr 6% thrMax 10%  GPU nv 97% intel 0%
+  [D] T=568   tri=82.463.760   rep 2/3:    59.28 FPS   16.868 ms  (emissao 0.515 ms, CPU ativa 1.033 ms, GPU 16.842 ms)  CPU 0.7% thr 7% thrMax 10%  GPU nv 97% intel 0%
+  [D] T=568   tri=82.463.760   rep 3/3:    59.25 FPS   16.877 ms  (emissao 0.562 ms, CPU ativa 1.125 ms, GPU 16.852 ms)  CPU 0.7% thr 5% thrMax 9%  GPU nv 97% intel 0%
+  => [D] T=568 (refino) tri=82.463.760: FPS medio 59.27 +- 0.02 (< 60)
+  [D] T=768   tri=150.815.760  rep 1/3:    32.57 FPS   30.707 ms  (emissao 0.580 ms, CPU ativa 1.192 ms, GPU 30.682 ms)  CPU 0.6% thr 3% thrMax 9%  GPU nv 98% intel 0%
+  [D] T=768   tri=150.815.760  rep 2/3:    32.58 FPS   30.698 ms  (emissao 0.606 ms, CPU ativa 1.237 ms, GPU 30.673 ms)  CPU 0.6% thr 4% thrMax 9%  GPU nv 98% intel 0%
+  [D] T=768   tri=150.815.760  rep 3/3:    32.57 FPS   30.701 ms  (emissao 0.620 ms, CPU ativa 1.267 ms, GPU 30.676 ms)  CPU 0.6% thr 4% thrMax 9%  GPU nv 98% intel 0%
+  => [D] T=768 (grossa) tri=150.815.760: FPS medio 32.57 +- 0.00 (< 60)
+--- Config D: limite encontrado | ultimo >= 60: 80.155.664 tri (63.8 FPS) | primeiro < 60: 82.463.760 tri (59.3 FPS)
+
+--- Configuracao E (omnidirecional, com textura) ---
+  [E] T=16    tri=78.864       rep 1/3:  1660.62 FPS    0.602 ms  (emissao 0.315 ms, CPU ativa 0.557 ms, GPU 0.047 ms)  CPU 4.9% thr 93% thrMax 93%  GPU nv 13% intel 0%
+  [E] T=16    tri=78.864       rep 2/3:  1685.89 FPS    0.593 ms  (emissao 0.314 ms, CPU ativa 0.563 ms, GPU 0.047 ms)  CPU 5.1% thr 98% thrMax 98%  GPU nv 14% intel 0%
+  [E] T=16    tri=78.864       rep 3/3:  1629.79 FPS    0.614 ms  (emissao 0.325 ms, CPU ativa 0.579 ms, GPU 0.047 ms)  CPU 5.0% thr 95% thrMax 95%  GPU nv 13% intel 0%
+  => [E] T=16 (grossa) tri=78.864: FPS medio 1658.77 +- 28.09 
+  [E] T=64    tri=1.049.616    rep 1/3:  1662.97 FPS    0.601 ms  (emissao 0.329 ms, CPU ativa 0.559 ms, GPU 0.199 ms)  CPU 5.0% thr 94% thrMax 94%  GPU nv 39% intel 0%
+  [E] T=64    tri=1.049.616    rep 2/3:  1667.12 FPS    0.600 ms  (emissao 0.329 ms, CPU ativa 0.557 ms, GPU 0.198 ms)  CPU 4.9% thr 94% thrMax 94%  GPU nv 39% intel 0%
+  [E] T=64    tri=1.049.616    rep 3/3:  1687.26 FPS    0.593 ms  (emissao 0.321 ms, CPU ativa 0.560 ms, GPU 0.199 ms)  CPU 5.0% thr 94% thrMax 94%  GPU nv 39% intel 0%
+  => [E] T=64 (grossa) tri=1.049.616: FPS medio 1672.45 +- 12.99 
+  [E] T=128   tri=4.178.960    rep 1/3:  1002.43 FPS    0.998 ms  (emissao 0.307 ms, CPU ativa 0.569 ms, GPU 0.857 ms)  CPU 3.0% thr 57% thrMax 57%  GPU nv 62% intel 0%
+  [E] T=128   tri=4.178.960    rep 2/3:   998.50 FPS    1.002 ms  (emissao 0.325 ms, CPU ativa 0.600 ms, GPU 0.861 ms)  CPU 3.3% thr 63% thrMax 63%  GPU nv 62% intel 0%
+  [E] T=128   tri=4.178.960    rep 3/3:   999.91 FPS    1.000 ms  (emissao 0.314 ms, CPU ativa 0.573 ms, GPU 0.859 ms)  CPU 3.2% thr 59% thrMax 60%  GPU nv 62% intel 0%
+  => [E] T=128 (grossa) tri=4.178.960: FPS medio 1000.28 +- 1.99 
+  [E] T=192   tri=9.405.456    rep 1/3:   525.54 FPS    1.903 ms  (emissao 0.322 ms, CPU ativa 0.600 ms, GPU 1.880 ms)  CPU 1.9% thr 32% thrMax 32%  GPU nv 74% intel 0%
+  [E] T=192   tri=9.405.456    rep 2/3:   525.37 FPS    1.903 ms  (emissao 0.320 ms, CPU ativa 0.586 ms, GPU 1.880 ms)  CPU 1.8% thr 31% thrMax 31%  GPU nv 75% intel 0%
+  [E] T=192   tri=9.405.456    rep 3/3:   525.77 FPS    1.902 ms  (emissao 0.324 ms, CPU ativa 0.619 ms, GPU 1.878 ms)  CPU 2.0% thr 33% thrMax 33%  GPU nv 75% intel 0%
+  => [E] T=192 (grossa) tri=9.405.456: FPS medio 525.56 +- 0.20 
+  [E] T=256   tri=16.729.104   rep 1/3:   310.84 FPS    3.217 ms  (emissao 0.334 ms, CPU ativa 0.636 ms, GPU 3.194 ms)  CPU 1.4% thr 19% thrMax 20%  GPU nv 85% intel 0%
+  [E] T=256   tri=16.729.104   rep 2/3:   310.67 FPS    3.219 ms  (emissao 0.327 ms, CPU ativa 0.625 ms, GPU 3.195 ms)  CPU 1.3% thr 19% thrMax 18%  GPU nv 85% intel 0%
+  [E] T=256   tri=16.729.104   rep 3/3:   310.76 FPS    3.218 ms  (emissao 0.333 ms, CPU ativa 0.628 ms, GPU 3.195 ms)  CPU 1.3% thr 19% thrMax 19%  GPU nv 85% intel 0%
+  => [E] T=256 (grossa) tri=16.729.104: FPS medio 310.76 +- 0.08 
+  [E] T=320   tri=26.149.904   rep 1/3:   202.98 FPS    4.927 ms  (emissao 0.347 ms, CPU ativa 0.665 ms, GPU 4.902 ms)  CPU 1.0% thr 13% thrMax 13%  GPU nv 90% intel 0%
+  [E] T=320   tri=26.149.904   rep 2/3:   202.98 FPS    4.927 ms  (emissao 0.373 ms, CPU ativa 0.732 ms, GPU 4.902 ms)  CPU 1.1% thr 14% thrMax 15%  GPU nv 90% intel 0%
+  [E] T=320   tri=26.149.904   rep 3/3:   202.98 FPS    4.927 ms  (emissao 0.362 ms, CPU ativa 0.722 ms, GPU 4.902 ms)  CPU 1.2% thr 16% thrMax 16%  GPU nv 90% intel 0%
+  => [E] T=320 (grossa) tri=26.149.904: FPS medio 202.98 +- 0.00 
+  [E] T=384   tri=37.667.856   rep 1/3:   143.01 FPS    6.992 ms  (emissao 0.382 ms, CPU ativa 0.790 ms, GPU 6.967 ms)  CPU 1.0% thr 11% thrMax 12%  GPU nv 93% intel 0%
+  [E] T=384   tri=37.667.856   rep 2/3:   143.01 FPS    6.993 ms  (emissao 0.361 ms, CPU ativa 0.706 ms, GPU 6.968 ms)  CPU 0.9% thr 9% thrMax 11%  GPU nv 93% intel 0%
+  [E] T=384   tri=37.667.856   rep 3/3:   143.01 FPS    6.992 ms  (emissao 0.366 ms, CPU ativa 0.733 ms, GPU 6.967 ms)  CPU 0.9% thr 11% thrMax 12%  GPU nv 93% intel 0%
+  => [E] T=384 (grossa) tri=37.667.856: FPS medio 143.01 +- 0.00 
+  [E] T=448   tri=51.282.960   rep 1/3:   105.75 FPS    9.457 ms  (emissao 0.411 ms, CPU ativa 0.832 ms, GPU 9.431 ms)  CPU 0.6% thr 3% thrMax 10%  GPU nv 95% intel 0%
+  [E] T=448   tri=51.282.960   rep 2/3:   105.74 FPS    9.458 ms  (emissao 0.405 ms, CPU ativa 0.865 ms, GPU 9.433 ms)  CPU 0.9% thr 10% thrMax 12%  GPU nv 95% intel 0%
+  [E] T=448   tri=51.282.960   rep 3/3:   105.73 FPS    9.458 ms  (emissao 0.391 ms, CPU ativa 0.794 ms, GPU 9.433 ms)  CPU 0.9% thr 10% thrMax 12%  GPU nv 95% intel 0%
+  => [E] T=448 (grossa) tri=51.282.960: FPS medio 105.74 +- 0.01 
+  [E] T=512   tri=66.995.216   rep 1/3:    81.22 FPS   12.313 ms  (emissao 0.423 ms, CPU ativa 0.882 ms, GPU 12.289 ms)  CPU 0.8% thr 7% thrMax 10%  GPU nv 96% intel 0%
+  [E] T=512   tri=66.995.216   rep 2/3:    81.22 FPS   12.313 ms  (emissao 0.439 ms, CPU ativa 0.910 ms, GPU 12.288 ms)  CPU 0.8% thr 7% thrMax 10%  GPU nv 96% intel 0%
+  [E] T=512   tri=66.995.216   rep 3/3:    81.21 FPS   12.314 ms  (emissao 0.430 ms, CPU ativa 0.894 ms, GPU 12.289 ms)  CPU 0.8% thr 7% thrMax 10%  GPU nv 96% intel 0%
+  => [E] T=512 (grossa) tri=66.995.216: FPS medio 81.21 +- 0.00 
+  [E] T=640   tri=104.711.184  rep 1/3:    45.72 FPS   21.872 ms  (emissao 0.557 ms, CPU ativa 1.163 ms, GPU 21.847 ms)  CPU 0.7% thr 5% thrMax 10%  GPU nv 97% intel 0%
+  [E] T=640   tri=104.711.184  rep 2/3:    45.67 FPS   21.897 ms  (emissao 0.550 ms, CPU ativa 1.118 ms, GPU 21.872 ms)  CPU 0.7% thr 6% thrMax 10%  GPU nv 98% intel 0%
+  [E] T=640   tri=104.711.184  rep 3/3:    45.63 FPS   21.913 ms  (emissao 0.558 ms, CPU ativa 1.111 ms, GPU 21.887 ms)  CPU 0.7% thr 5% thrMax 10%  GPU nv 97% intel 0%
+  => [E] T=640 (grossa) tri=104.711.184: FPS medio 45.67 +- 0.04 (< 60)
+  [E] T=576   tri=84.804.624   rep 1/3:    56.12 FPS   17.820 ms  (emissao 0.520 ms, CPU ativa 1.047 ms, GPU 17.794 ms)  CPU 0.7% thr 6% thrMax 10%  GPU nv 97% intel 0%
+  [E] T=576   tri=84.804.624   rep 2/3:    56.17 FPS   17.802 ms  (emissao 0.507 ms, CPU ativa 1.000 ms, GPU 17.776 ms)  CPU 0.7% thr 6% thrMax 9%  GPU nv 97% intel 0%
+  [E] T=576   tri=84.804.624   rep 3/3:    56.16 FPS   17.807 ms  (emissao 0.532 ms, CPU ativa 1.065 ms, GPU 17.782 ms)  CPU 0.7% thr 6% thrMax 10%  GPU nv 97% intel 0%
+  => [E] T=576 (refino) tri=84.804.624: FPS medio 56.15 +- 0.03 (< 60)
+  [E] T=544   tri=75.637.776   rep 1/3:    71.80 FPS   13.928 ms  (emissao 0.452 ms, CPU ativa 0.967 ms, GPU 13.902 ms)  CPU 0.7% thr 7% thrMax 9%  GPU nv 96% intel 0%
+  [E] T=544   tri=75.637.776   rep 2/3:    71.81 FPS   13.926 ms  (emissao 0.461 ms, CPU ativa 0.946 ms, GPU 13.902 ms)  CPU 0.7% thr 6% thrMax 9%  GPU nv 91% intel 0%
+  [E] T=544   tri=75.637.776   rep 3/3:    71.80 FPS   13.928 ms  (emissao 0.462 ms, CPU ativa 0.919 ms, GPU 13.902 ms)  CPU 0.7% thr 7% thrMax 9%  GPU nv 96% intel 0%
+  => [E] T=544 (refino) tri=75.637.776: FPS medio 71.80 +- 0.01 
+  [E] T=560   tri=80.155.664   rep 1/3:    61.93 FPS   16.146 ms  (emissao 0.497 ms, CPU ativa 0.984 ms, GPU 16.121 ms)  CPU 0.7% thr 7% thrMax 10%  GPU nv 97% intel 0%
+  [E] T=560   tri=80.155.664   rep 2/3:    62.01 FPS   16.127 ms  (emissao 0.491 ms, CPU ativa 0.992 ms, GPU 16.101 ms)  CPU 0.7% thr 5% thrMax 9%  GPU nv 97% intel 0%
+  [E] T=560   tri=80.155.664   rep 3/3:    61.92 FPS   16.151 ms  (emissao 0.499 ms, CPU ativa 1.053 ms, GPU 16.126 ms)  CPU 0.7% thr 6% thrMax 9%  GPU nv 96% intel 0%
+  => [E] T=560 (refino) tri=80.155.664: FPS medio 61.95 +- 0.05 
+  [E] T=568   tri=82.463.760   rep 1/3:    57.97 FPS   17.249 ms  (emissao 0.524 ms, CPU ativa 1.046 ms, GPU 17.223 ms)  CPU 0.7% thr 5% thrMax 9%  GPU nv 97% intel 0%
+  [E] T=568   tri=82.463.760   rep 2/3:    57.89 FPS   17.275 ms  (emissao 0.521 ms, CPU ativa 1.055 ms, GPU 17.247 ms)  CPU 0.7% thr 6% thrMax 9%  GPU nv 97% intel 0%
+  [E] T=568   tri=82.463.760   rep 3/3:    57.90 FPS   17.272 ms  (emissao 0.525 ms, CPU ativa 1.043 ms, GPU 17.244 ms)  CPU 0.7% thr 5% thrMax 9%  GPU nv 97% intel 0%
+  => [E] T=568 (refino) tri=82.463.760: FPS medio 57.92 +- 0.05 (< 60)
+  [E] T=768   tri=150.815.760  rep 1/3:    31.81 FPS   31.435 ms  (emissao 0.573 ms, CPU ativa 1.207 ms, GPU 31.411 ms)  CPU 0.6% thr 4% thrMax 9%  GPU nv 98% intel 0%
+  [E] T=768   tri=150.815.760  rep 2/3:    31.78 FPS   31.461 ms  (emissao 0.582 ms, CPU ativa 1.235 ms, GPU 31.435 ms)  CPU 0.6% thr 3% thrMax 10%  GPU nv 98% intel 0%
+  [E] T=768   tri=150.815.760  rep 3/3:    31.88 FPS   31.373 ms  (emissao 0.601 ms, CPU ativa 1.224 ms, GPU 31.347 ms)  CPU 0.6% thr 4% thrMax 10%  GPU nv 98% intel 0%
+  => [E] T=768 (grossa) tri=150.815.760: FPS medio 31.82 +- 0.05 (< 60)
+--- Config E: limite encontrado | ultimo >= 60: 80.155.664 tri (62.0 FPS) | primeiro < 60: 82.463.760 tri (57.9 FPS)
+
+--- Configuracao F (spot, com textura) ---
+  [F] T=16    tri=78.864       rep 1/3:  1744.10 FPS    0.573 ms  (emissao 0.299 ms, CPU ativa 0.556 ms, GPU 0.043 ms)  CPU 5.2% thr 99% thrMax 98%  GPU nv 13% intel 0%
+  [F] T=16    tri=78.864       rep 2/3:  1775.89 FPS    0.563 ms  (emissao 0.294 ms, CPU ativa 0.548 ms, GPU 0.043 ms)  CPU 5.2% thr 99% thrMax 99%  GPU nv 13% intel 0%
+  [F] T=16    tri=78.864       rep 3/3:  1648.73 FPS    0.607 ms  (emissao 0.308 ms, CPU ativa 0.564 ms, GPU 0.043 ms)  CPU 4.9% thr 93% thrMax 93%  GPU nv 13% intel 0%
+  => [F] T=16 (grossa) tri=78.864: FPS medio 1722.91 +- 66.17 
+  [F] T=64    tri=1.049.616    rep 1/3:  1655.27 FPS    0.604 ms  (emissao 0.324 ms, CPU ativa 0.557 ms, GPU 0.195 ms)  CPU 4.9% thr 93% thrMax 94%  GPU nv 38% intel 0%
+  [F] T=64    tri=1.049.616    rep 2/3:  1647.07 FPS    0.607 ms  (emissao 0.327 ms, CPU ativa 0.558 ms, GPU 0.194 ms)  CPU 4.9% thr 92% thrMax 92%  GPU nv 38% intel 0%
+  [F] T=64    tri=1.049.616    rep 3/3:  1688.17 FPS    0.592 ms  (emissao 0.319 ms, CPU ativa 0.556 ms, GPU 0.195 ms)  CPU 4.9% thr 93% thrMax 94%  GPU nv 39% intel 0%
+  => [F] T=64 (grossa) tri=1.049.616: FPS medio 1663.50 +- 21.75 
+  [F] T=128   tri=4.178.960    rep 1/3:  1002.43 FPS    0.998 ms  (emissao 0.303 ms, CPU ativa 0.554 ms, GPU 0.856 ms)  CPU 2.9% thr 55% thrMax 55%  GPU nv 61% intel 0%
+  [F] T=128   tri=4.178.960    rep 2/3:  1004.34 FPS    0.996 ms  (emissao 0.301 ms, CPU ativa 0.548 ms, GPU 0.856 ms)  CPU 3.0% thr 57% thrMax 57%  GPU nv 61% intel 0%
+  [F] T=128   tri=4.178.960    rep 3/3:  1002.96 FPS    0.997 ms  (emissao 0.307 ms, CPU ativa 0.563 ms, GPU 0.856 ms)  CPU 3.0% thr 56% thrMax 56%  GPU nv 61% intel 0%
+  => [F] T=128 (grossa) tri=4.178.960: FPS medio 1003.25 +- 0.98 
+  [F] T=192   tri=9.405.456    rep 1/3:   526.17 FPS    1.901 ms  (emissao 0.318 ms, CPU ativa 0.597 ms, GPU 1.877 ms)  CPU 1.9% thr 32% thrMax 32%  GPU nv 75% intel 0%
+  [F] T=192   tri=9.405.456    rep 2/3:   526.21 FPS    1.900 ms  (emissao 0.312 ms, CPU ativa 0.576 ms, GPU 1.877 ms)  CPU 1.8% thr 30% thrMax 30%  GPU nv 75% intel 0%
+  [F] T=192   tri=9.405.456    rep 3/3:   526.45 FPS    1.900 ms  (emissao 0.322 ms, CPU ativa 0.599 ms, GPU 1.875 ms)  CPU 1.8% thr 30% thrMax 31%  GPU nv 75% intel 0%
+  => [F] T=192 (grossa) tri=9.405.456: FPS medio 526.28 +- 0.15 
+  [F] T=256   tri=16.729.104   rep 1/3:   310.86 FPS    3.217 ms  (emissao 0.392 ms, CPU ativa 0.791 ms, GPU 3.194 ms)  CPU 1.7% thr 26% thrMax 26%  GPU nv 90% intel 0%
+  [F] T=256   tri=16.729.104   rep 2/3:   310.55 FPS    3.220 ms  (emissao 0.394 ms, CPU ativa 0.832 ms, GPU 3.197 ms)  CPU 1.7% thr 25% thrMax 25%  GPU nv 90% intel 0%
+  [F] T=256   tri=16.729.104   rep 3/3:   310.67 FPS    3.219 ms  (emissao 0.425 ms, CPU ativa 0.874 ms, GPU 3.195 ms)  CPU 1.8% thr 27% thrMax 27%  GPU nv 90% intel 0%
+  => [F] T=256 (grossa) tri=16.729.104: FPS medio 310.69 +- 0.16 
+  [F] T=320   tri=26.149.904   rep 1/3:   203.24 FPS    4.920 ms  (emissao 0.416 ms, CPU ativa 0.887 ms, GPU 4.895 ms)  CPU 1.4% thr 19% thrMax 19%  GPU nv 94% intel 0%
+  [F] T=320   tri=26.149.904   rep 2/3:     0.18 FPS  5532.179 ms  (emissao 0.582 ms, CPU ativa 1.172 ms, GPU 4.895 ms)  CPU 5.2% thr 99% thrMax 99%  GPU nv 0% intel 0%
+  [F] T=320   tri=26.149.904   rep 3/3:   204.29 FPS    4.895 ms  (emissao 0.424 ms, CPU ativa 0.879 ms, GPU 4.870 ms)  CPU 1.3% thr 17% thrMax 17%  GPU nv 93% intel 0%
+  => [F] T=320 (grossa) tri=26.149.904: FPS medio 135.90 +- 117.54 

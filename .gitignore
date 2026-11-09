@@ -1,0 +1,27 @@
+# Build
+build/
+out/
+.vs/
+*.exe
+*.dll
+*.pdb
+*.obj
+*.ilk
+
+# LaTeX (arquivos auxiliares)
+relatorio/*.aux
+relatorio/*.log
+relatorio/*.out
+relatorio/*.toc
+relatorio/*.lof
+relatorio/*.lot
+relatorio/*.synctex.gz
+relatorio/*.fls
+relatorio/*.fdb_latexmk
+relatorio/relatorio.pdf
+
+# Editores / sistema
+.vscode/
+*.swp
+Thumbs.db
+desktop.ini

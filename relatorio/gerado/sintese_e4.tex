@@ -1,0 +1,20 @@
+\begin{table}[H]
+\centering
+\caption{Tabela-síntese do experimento E4 (GPU integrada Intel Arc, VBO, aumento de T).}
+\label{tab:sintese_e4}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\textwidth}{c r r r c c L P{1.6cm}}
+\toprule
+Cfg. & Último $\geq$ 60 & \textbf{Menor testado} & FPS médio & CPU proc. / & GPU 3D & Gargalo & Situação \\
+ & (FPS) & \textbf{$<$ 60} & $\pm$ dp & thread máx. (\%) & (\%) & (indício mais forte) & \\
+\midrule
+A & 11.906.064 (60,5) & \textbf{12.351.504} & \textbf{58,8} $\pm$ 0,04 & 0,9 / 15 & 99 & GPU (processamento de vértices) & limite encontrado \\
+B & 11.906.064 (60,5) & \textbf{12.351.504} & \textbf{58,5} $\pm$ 0,08 & 0,8 / 14 & 98 & GPU (processamento de vértices) & limite encontrado \\
+C & 11.906.064 (60,6) & \textbf{12.351.504} & \textbf{58,6} $\pm$ 0,12 & 0,9 / 14 & 98 & GPU (processamento de vértices) & limite encontrado \\
+D & 11.468.816 (62,3) & \textbf{11.906.064} & \textbf{59,6} $\pm$ 0,07 & 0,9 / 15 & 98 & GPU (processamento de vértices) & limite encontrado \\
+E & 11.468.816 (61,0) & \textbf{11.906.064} & \textbf{59,1} $\pm$ 0,08 & 0,9 / 15 & 96 & GPU (processamento de vértices) & limite encontrado \\
+F & 11.906.064 (60,6) & \textbf{12.351.504} & \textbf{58,7} $\pm$ 0,11 & 0,8 / 14 & 99 & GPU (processamento de vértices) & limite encontrado \\
+\bottomrule
+\end{tabularx}
+\end{table}

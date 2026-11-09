@@ -1,0 +1,20 @@
+\begin{table}[H]
+\centering
+\caption{Tabela-síntese do experimento E2 (modo imediato, GPU dedicada).}
+\label{tab:sintese_e2}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\textwidth}{c r r r c c L P{1.6cm}}
+\toprule
+Cfg. & Último $\geq$ 60 & \textbf{Menor testado} & FPS médio & CPU proc. / & GPU 3D & Gargalo & Situação \\
+ & (FPS) & \textbf{$<$ 60} & $\pm$ dp & thread máx. (\%) & (\%) & (indício mais forte) & \\
+\midrule
+A & 501.776 (60,8) & \textbf{524.304} & \textbf{57,6} $\pm$ 0,42 & 5,0 / 99 & 23 & CPU: 1 thread saturada (envio de comandos) & limite encontrado \\
+B & 501.776 (60,5) & \textbf{524.304} & \textbf{56,8} $\pm$ 1,13 & 5,0 / 98 & 23 & CPU: 1 thread saturada (envio de comandos) & limite encontrado \\
+C & 479.760 (62,8) & \textbf{501.776} & \textbf{59,7} $\pm$ 0,00 & 5,0 / 99 & 23 & CPU: 1 thread saturada (envio de comandos) & limite encontrado \\
+D & 479.760 (60,8) & \textbf{501.776} & \textbf{59,8} $\pm$ 0,31 & 4,9 / 98 & 23 & CPU: 1 thread saturada (envio de comandos) & limite encontrado \\
+E & 479.760 (61,5) & \textbf{501.776} & \textbf{58,3} $\pm$ 0,49 & 4,9 / 97 & 20 & CPU: 1 thread saturada (envio de comandos) & limite encontrado \\
+F & 479.760 (60,9) & \textbf{501.776} & \textbf{57,5} $\pm$ 0,06 & 4,9 / 98 & 20 & CPU: 1 thread saturada (envio de comandos) & limite encontrado \\
+\bottomrule
+\end{tabularx}
+\end{table}
